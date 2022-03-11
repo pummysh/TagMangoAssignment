@@ -1,0 +1,21 @@
+.songCont{
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius:20px;
+    padding: 5px;
+    box-shadow: rgba(240, 233, 233, 0.76) 0px 3px 8px;
+    /* color: #fff; */
+}
+
+@media(max-width:768px){
+    .songCont{
+        width: 80%;
+    }
+}
+
+.img{
+    border-radius:20px;
+}
