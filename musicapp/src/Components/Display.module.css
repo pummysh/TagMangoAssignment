@@ -27,12 +27,19 @@
 
 }
 
-@media(max-width:768px){
+@media(max-width:600px){
     .display{
         background-size:contain ;
+    }
+    .display>div{
+        font-size: 15px;
+    }
+    .display>div:hover{
+        box-shadow: rgba(240, 233, 233, 0.76) 0px 3px 8px;
     }
 }
 
 .display>div:hover{
     box-shadow: rgba(240, 233, 233, 0.76) 0px 3px 8px;
 }
+
