@@ -10,9 +10,10 @@ export const Display=()=>{
 
     return <div onClick={()=>goto()} className={styled.display}>
         {/* <img src={"/strawberrystyle-click.gif"} alt="" /> */}
-        <div>
+        <div style={{display:"flex",flexDirection:"column"}}>
         {/* <AiFillPlayCircle/> */}
-        <b>Click here to play music</b>
+        <b>Play the music</b>
+        <b>♪♩♫♬</b>
         </div>
     </div>
 }

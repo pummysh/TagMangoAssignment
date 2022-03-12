@@ -64,7 +64,7 @@ export const Home=()=>{
     return <div id="home" className={styled.box}>
         <Navbar/>
         <select onChange={slt} className={styled.slt} name="" id="">
-            <option hidden>Select Author</option>
+            <option hidden>Select Artist</option>
             <option value="all">Get all</option>
             <option value="Rahat Fateh Ali Khan">Rahat Fateh Ali Khan</option>
             <option value="Momina Mustehsan">Momina Mustehsan</option>
